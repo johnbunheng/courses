@@ -89,11 +89,11 @@ const Navbar = () => {
                         animate={{ y: "auto", opacity: 1 }}
                         exit={{ y: -0, opacity: 0 }}
                         transition={{ duration: 0.3 }}
-                        className="sm:hidden bg-white shadow-md rounded-md absolute mx-28 top-6"
+                        className="sm:hidden bg-white shadow-md rounded-md absolute right-0 top-6"
                         >
                         <FiX 
                         onClick={() => setShow(false)}
-                        className=" mx-[85%] text-4xl absolute cursor-pointer "/>
+                        className=" mx-[80%] text-4xl absolute cursor-pointer "/>
                         <ul className="flex flex-col items-center w-[250px] gap-4 py-4">
                             {Menu.map((item) => (
                             <li key={item.id}>
